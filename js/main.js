@@ -25,9 +25,6 @@
     }
   };
 
-}).call(this);
-
-(function() {
   this.onload = function() {
     var draw, init;
     init = function() {
@@ -61,3 +58,5 @@
   };
 
 }).call(this);
+
+//# sourceMappingURL=../js/main.js.map
