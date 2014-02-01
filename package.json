@@ -1,0 +1,16 @@
+{
+  "name": "playingwithchaos",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dpiatek/playingwithchaos.git"
+  },
+  "author": "@dominikpiatek",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-preprocess": "~4.0.0"
+  }
+}
