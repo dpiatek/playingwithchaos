@@ -6,8 +6,8 @@ module.exports = function(grunt) {
 
     watch: {
       src: {
-        files: ['js/**/*.js'],
-        tasks: ['jshint'],
+        files: ['coffee/**/*.coffee'],
+        tasks: ['coffee'],
         options: {
           livereload: true
         }
@@ -31,6 +31,14 @@ module.exports = function(grunt) {
           }
         }
       }
+    },
+
+    coffee: {
+      compile: {
+        files: {
+          'js/main.js': ['coffee/main.coffee']
+        }
+      }
     }
 
   });
@@ -39,6 +47,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-preprocess');
+  grunt.loadNpmTasks('grunt-contrib-coffee');
 
   // Tasks
   grunt.registerTask('default', ['watch']);
