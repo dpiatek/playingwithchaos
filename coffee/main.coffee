@@ -16,8 +16,9 @@
       @context.clearRect 0, 0, @width, @height
 
   popImage: ->
-    win = window.open "", "Canvas Image"
-    src = @canvas.toDataUrl "image/png"
+    win = window.open "", "CanvasImage"
+    src = @canvas.toDataURL "image/png"
     win.document.write(
       "<img src=#{src} width=#{@width} height=#{@height}/>"
     )
+    undefined
