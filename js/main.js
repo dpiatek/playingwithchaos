@@ -43,12 +43,12 @@
       var b, g, h, r, w, x, y, _ref, _ref1, _ref2;
       _ref = [Math.random() * chaos.width, Math.random() * chaos.height], x = _ref[0], y = _ref[1];
       _ref1 = (function() {
-        return [0, 0].map(function() {
+        return [0, 1].map(function() {
           return 20 + Math.random() * 100;
         });
       })(), w = _ref1[0], h = _ref1[1];
       _ref2 = (function() {
-        return [0, 0, 0].map(function() {
+        return [0, 1, 2].map(function() {
           return Math.floor(Math.random() * 256);
         });
       })(), r = _ref2[0], g = _ref2[1], b = _ref2[2];
