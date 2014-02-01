@@ -36,7 +36,7 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         files: {
-          'js/main.js': ['coffee/main.coffee']
+          'js/main.js': ['coffee/main.coffee', 'coffee/sample.coffee']
         }
       }
     }
