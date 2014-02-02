@@ -39,7 +39,7 @@ module.exports = function(grunt) {
       },
       compile: {
         files: {
-          'js/main.js': ['coffee/main.coffee', 'coffee/sample.coffee']
+          'projects/sample/sample.js': ['coffee/main.coffee', 'coffee/sample.coffee']
         }
       }
     }

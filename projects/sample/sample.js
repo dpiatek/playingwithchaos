@@ -60,4 +60,4 @@
 
 }).call(this);
 
-//# sourceMappingURL=../js/main.js.map
+//# sourceMappingURL=../../projects/sample/sample.js.map
